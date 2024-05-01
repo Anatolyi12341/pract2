@@ -1,3 +1,4 @@
+```mermaid
 classDiagram
     class MyCalc {
         +int Sum(int x, int y)
@@ -22,6 +23,7 @@ classDiagram
         +double CalculatePerimeter()
     }
     MyCalc --|> Object
+```
     Person --|> Object
     Circle --|> Object
     Rectangle --|> Object
