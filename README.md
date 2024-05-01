@@ -23,10 +23,10 @@ classDiagram
         +double CalculatePerimeter()
     }
     MyCalc --|> Object
-```
     Person --|> Object
     Circle --|> Object
     Rectangle --|> Object
     Person --* MyCalc : "Uses"
     Circle --* MyCalc : "Uses"
     Rectangle --* MyCalc : "Uses"
+```
